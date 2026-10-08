@@ -1,0 +1,3010 @@
+{
+  "levels": [
+    {
+      "id": 0,
+      "title": "Your Mental Model",
+      "note": null,
+      "tone": "green"
+    },
+    {
+      "id": 1,
+      "title": "Machine Learning Fundamentals",
+      "note": null,
+      "tone": "green"
+    },
+    {
+      "id": 2,
+      "title": "AI Mathematics",
+      "note": "Learn these conceptually — no university math required.",
+      "tone": "green"
+    },
+    {
+      "id": 3,
+      "title": "Neural Networks",
+      "note": null,
+      "tone": "green"
+    },
+    {
+      "id": 4,
+      "title": "NLP",
+      "note": null,
+      "tone": "yellow"
+    },
+    {
+      "id": 5,
+      "title": "Transformers",
+      "note": "One of the most important sections in the entire roadmap.",
+      "tone": "red"
+    },
+    {
+      "id": 6,
+      "title": "LLM Fundamentals",
+      "note": null,
+      "tone": "red"
+    },
+    {
+      "id": 7,
+      "title": "LLM API Engineering",
+      "note": "Where your Node/NestJS skills become directly useful.",
+      "tone": "red"
+    },
+    {
+      "id": 8,
+      "title": "Prompt Engineering",
+      "note": "Don't spend weeks here. Learn the principles.",
+      "tone": "red"
+    },
+    {
+      "id": 9,
+      "title": "Embeddings",
+      "note": null,
+      "tone": "red"
+    },
+    {
+      "id": 10,
+      "title": "Vector Databases",
+      "note": null,
+      "tone": "red"
+    },
+    {
+      "id": 11,
+      "title": "RAG",
+      "note": "Mandatory for your FDE path.",
+      "tone": "red"
+    },
+    {
+      "id": 12,
+      "title": "Advanced RAG",
+      "note": null,
+      "tone": "red"
+    },
+    {
+      "id": 13,
+      "title": "Fine-Tuning",
+      "note": "You don't need to become an ML researcher here.",
+      "tone": "purple"
+    },
+    {
+      "id": 14,
+      "title": "AI Agents",
+      "note": "Another very important FDE area.",
+      "tone": "purple"
+    },
+    {
+      "id": 15,
+      "title": "AI Frameworks",
+      "note": "Learn conceptually first, then use when needed.",
+      "tone": "purple"
+    },
+    {
+      "id": 16,
+      "title": "AI Evaluation",
+      "note": "This separates demos from production systems.",
+      "tone": "purple"
+    },
+    {
+      "id": 17,
+      "title": "AI Observability",
+      "note": null,
+      "tone": "purple"
+    },
+    {
+      "id": 18,
+      "title": "AI Security",
+      "note": "Very important for your architect/FDE goal.",
+      "tone": "purple"
+    },
+    {
+      "id": 19,
+      "title": "AI Infrastructure",
+      "note": null,
+      "tone": "orange"
+    },
+    {
+      "id": 20,
+      "title": "Cloud for AI",
+      "note": null,
+      "tone": "orange"
+    },
+    {
+      "id": 21,
+      "title": "DevOps for AI",
+      "note": null,
+      "tone": "orange"
+    },
+    {
+      "id": 22,
+      "title": "Data Engineering for AI",
+      "note": null,
+      "tone": "orange"
+    },
+    {
+      "id": 23,
+      "title": "System Design",
+      "note": "This should become a major strength for you.",
+      "tone": "blue"
+    },
+    {
+      "id": 24,
+      "title": "AI System Design",
+      "note": "Where system-design knowledge meets AI.",
+      "tone": "blue"
+    },
+    {
+      "id": 25,
+      "title": "AI Cost & Performance",
+      "note": null,
+      "tone": "blue"
+    },
+    {
+      "id": 26,
+      "title": "FDE Skills",
+      "note": "Now we move beyond pure engineering.",
+      "tone": "blue"
+    },
+    {
+      "id": 27,
+      "title": "Product Thinking",
+      "note": null,
+      "tone": "blue"
+    },
+    {
+      "id": 28,
+      "title": "Architecture",
+      "note": "Your long-term destination.",
+      "tone": "blue"
+    },
+    {
+      "id": 29,
+      "title": "Enterprise Integration",
+      "note": "Very important for FDE.",
+      "tone": "blue"
+    },
+    {
+      "id": 30,
+      "title": "AI + Existing Software",
+      "note": "Particularly relevant to your background.",
+      "tone": "blue"
+    },
+    {
+      "id": 31,
+      "title": "Real-World AI Architecture Case Studies",
+      "note": "Extremely valuable.",
+      "tone": "fire"
+    },
+    {
+      "id": 32,
+      "title": "Architecture Interview / FDE Thinking",
+      "note": null,
+      "tone": "fire"
+    },
+    {
+      "id": 33,
+      "title": "Final Integration",
+      "note": "Use these to test whether you actually understand everything.",
+      "tone": "fire"
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "title": "What is Artificial Intelligence? AI vs ML vs Deep Learning vs Generative AI",
+      "levelId": 0
+    },
+    {
+      "id": 2,
+      "title": "What is Machine Learning and how does it actually work?",
+      "levelId": 0
+    },
+    {
+      "id": 3,
+      "title": "What is Deep Learning and how is it different from traditional Machine Learning?",
+      "levelId": 0
+    },
+    {
+      "id": 4,
+      "title": "What are Generative AI models and how are they different from traditional AI?",
+      "levelId": 0
+    },
+    {
+      "id": 5,
+      "title": "AI vs automation vs traditional software engineering",
+      "levelId": 0
+    },
+    {
+      "id": 6,
+      "title": "What problems are best solved with AI and what problems should NOT use AI?",
+      "levelId": 0
+    },
+    {
+      "id": 7,
+      "title": "Overview of the modern AI technology stack",
+      "levelId": 0
+    },
+    {
+      "id": 8,
+      "title": "How a modern AI application works from user request to final response",
+      "levelId": 0
+    },
+    {
+      "id": 9,
+      "title": "AI terminology every software engineer should know",
+      "levelId": 0
+    },
+    {
+      "id": 10,
+      "title": "How AI systems are used in real-world enterprise applications",
+      "levelId": 0
+    },
+    {
+      "id": 11,
+      "title": "What is supervised learning?",
+      "levelId": 1
+    },
+    {
+      "id": 12,
+      "title": "What is unsupervised learning?",
+      "levelId": 1
+    },
+    {
+      "id": 13,
+      "title": "What is reinforcement learning?",
+      "levelId": 1
+    },
+    {
+      "id": 14,
+      "title": "Classification vs regression",
+      "levelId": 1
+    },
+    {
+      "id": 15,
+      "title": "Clustering and when to use it",
+      "levelId": 1
+    },
+    {
+      "id": 16,
+      "title": "Training vs validation vs testing in Machine Learning",
+      "levelId": 1
+    },
+    {
+      "id": 17,
+      "title": "Features, labels and datasets explained",
+      "levelId": 1
+    },
+    {
+      "id": 18,
+      "title": "What is a Machine Learning model?",
+      "levelId": 1
+    },
+    {
+      "id": 19,
+      "title": "Parameters vs hyperparameters",
+      "levelId": 1
+    },
+    {
+      "id": 20,
+      "title": "What is model training?",
+      "levelId": 1
+    },
+    {
+      "id": 21,
+      "title": "What is inference?",
+      "levelId": 1
+    },
+    {
+      "id": 22,
+      "title": "Overfitting and underfitting",
+      "levelId": 1
+    },
+    {
+      "id": 23,
+      "title": "Bias vs variance",
+      "levelId": 1
+    },
+    {
+      "id": 24,
+      "title": "What is a loss function?",
+      "levelId": 1
+    },
+    {
+      "id": 25,
+      "title": "Gradient descent explained",
+      "levelId": 1
+    },
+    {
+      "id": 26,
+      "title": "Accuracy vs precision vs recall vs F1 score",
+      "levelId": 1
+    },
+    {
+      "id": 27,
+      "title": "Confusion matrix explained",
+      "levelId": 1
+    },
+    {
+      "id": 28,
+      "title": "Cross-validation explained",
+      "levelId": 1
+    },
+    {
+      "id": 29,
+      "title": "Feature engineering",
+      "levelId": 1
+    },
+    {
+      "id": 30,
+      "title": "Machine Learning lifecycle from data to production",
+      "levelId": 1
+    },
+    {
+      "id": 31,
+      "title": "Vectors explained for AI engineers",
+      "levelId": 2
+    },
+    {
+      "id": 32,
+      "title": "Matrices explained for AI engineers",
+      "levelId": 2
+    },
+    {
+      "id": 33,
+      "title": "Dot product explained",
+      "levelId": 2
+    },
+    {
+      "id": 34,
+      "title": "Matrix multiplication explained",
+      "levelId": 2
+    },
+    {
+      "id": 35,
+      "title": "Distance and similarity in mathematics",
+      "levelId": 2
+    },
+    {
+      "id": 36,
+      "title": "Cosine similarity explained",
+      "levelId": 2
+    },
+    {
+      "id": 37,
+      "title": "Probability fundamentals for AI",
+      "levelId": 2
+    },
+    {
+      "id": 38,
+      "title": "Conditional probability explained",
+      "levelId": 2
+    },
+    {
+      "id": 39,
+      "title": "Statistics fundamentals for Machine Learning",
+      "levelId": 2
+    },
+    {
+      "id": 40,
+      "title": "Why linear algebra is important for AI",
+      "levelId": 2
+    },
+    {
+      "id": 41,
+      "title": "Why probability is important for AI",
+      "levelId": 2
+    },
+    {
+      "id": 42,
+      "title": "Why calculus is used in Machine Learning",
+      "levelId": 2
+    },
+    {
+      "id": 43,
+      "title": "Gradient and derivatives explained intuitively",
+      "levelId": 2
+    },
+    {
+      "id": 44,
+      "title": "Mathematics behind embeddings",
+      "levelId": 2
+    },
+    {
+      "id": 45,
+      "title": "What is a neural network?",
+      "levelId": 3
+    },
+    {
+      "id": 46,
+      "title": "Anatomy of a neural network",
+      "levelId": 3
+    },
+    {
+      "id": 47,
+      "title": "Neurons, weights and biases",
+      "levelId": 3
+    },
+    {
+      "id": 48,
+      "title": "Activation functions explained",
+      "levelId": 3
+    },
+    {
+      "id": 49,
+      "title": "ReLU, sigmoid and softmax",
+      "levelId": 3
+    },
+    {
+      "id": 50,
+      "title": "Forward propagation explained",
+      "levelId": 3
+    },
+    {
+      "id": 51,
+      "title": "Backpropagation explained intuitively",
+      "levelId": 3
+    },
+    {
+      "id": 52,
+      "title": "Gradient descent in neural networks",
+      "levelId": 3
+    },
+    {
+      "id": 53,
+      "title": "Loss functions in neural networks",
+      "levelId": 3
+    },
+    {
+      "id": 54,
+      "title": "Epochs, batches and iterations",
+      "levelId": 3
+    },
+    {
+      "id": 55,
+      "title": "Learning rate explained",
+      "levelId": 3
+    },
+    {
+      "id": 56,
+      "title": "Neural network training lifecycle",
+      "levelId": 3
+    },
+    {
+      "id": 57,
+      "title": "Why deep neural networks work",
+      "levelId": 3
+    },
+    {
+      "id": 58,
+      "title": "CNN vs RNN vs Transformer",
+      "levelId": 3
+    },
+    {
+      "id": 59,
+      "title": "What is deep learning really doing?",
+      "levelId": 3
+    },
+    {
+      "id": 60,
+      "title": "What is Natural Language Processing?",
+      "levelId": 4
+    },
+    {
+      "id": 61,
+      "title": "How computers understand text",
+      "levelId": 4
+    },
+    {
+      "id": 62,
+      "title": "Text preprocessing in NLP",
+      "levelId": 4
+    },
+    {
+      "id": 63,
+      "title": "Tokenization explained",
+      "levelId": 4
+    },
+    {
+      "id": 64,
+      "title": "Words vs tokens vs subwords",
+      "levelId": 4
+    },
+    {
+      "id": 65,
+      "title": "Word embeddings explained",
+      "levelId": 4
+    },
+    {
+      "id": 66,
+      "title": "Word2Vec explained conceptually",
+      "levelId": 4
+    },
+    {
+      "id": 67,
+      "title": "Semantic similarity in NLP",
+      "levelId": 4
+    },
+    {
+      "id": 68,
+      "title": "Sequence models explained",
+      "levelId": 4
+    },
+    {
+      "id": 69,
+      "title": "RNN explained",
+      "levelId": 4
+    },
+    {
+      "id": 70,
+      "title": "LSTM explained",
+      "levelId": 4
+    },
+    {
+      "id": 71,
+      "title": "Why Transformers replaced RNNs",
+      "levelId": 4
+    },
+    {
+      "id": 72,
+      "title": "NLP before Transformers vs after Transformers",
+      "levelId": 4
+    },
+    {
+      "id": 73,
+      "title": "What is a Transformer?",
+      "levelId": 5
+    },
+    {
+      "id": 74,
+      "title": "Why were Transformers invented?",
+      "levelId": 5
+    },
+    {
+      "id": 75,
+      "title": "Transformer architecture explained",
+      "levelId": 5
+    },
+    {
+      "id": 76,
+      "title": "Encoder vs decoder architecture",
+      "levelId": 5
+    },
+    {
+      "id": 77,
+      "title": "Self-attention explained",
+      "levelId": 5
+    },
+    {
+      "id": 78,
+      "title": "Query, Key and Value in attention",
+      "levelId": 5
+    },
+    {
+      "id": 79,
+      "title": "Multi-head attention explained",
+      "levelId": 5
+    },
+    {
+      "id": 80,
+      "title": "Positional encoding explained",
+      "levelId": 5
+    },
+    {
+      "id": 81,
+      "title": "Feed-forward network inside Transformers",
+      "levelId": 5
+    },
+    {
+      "id": 82,
+      "title": "Transformer training process",
+      "levelId": 5
+    },
+    {
+      "id": 83,
+      "title": "Transformer inference process",
+      "levelId": 5
+    },
+    {
+      "id": 84,
+      "title": "Why Transformers are so powerful",
+      "levelId": 5
+    },
+    {
+      "id": 85,
+      "title": "How GPT works conceptually",
+      "levelId": 5
+    },
+    {
+      "id": 86,
+      "title": "How modern Large Language Models work",
+      "levelId": 5
+    },
+    {
+      "id": 87,
+      "title": "Transformer vs traditional neural networks",
+      "levelId": 5
+    },
+    {
+      "id": 88,
+      "title": "What is a Large Language Model?",
+      "levelId": 6
+    },
+    {
+      "id": 89,
+      "title": "How does an LLM generate text?",
+      "levelId": 6
+    },
+    {
+      "id": 90,
+      "title": "How does next-token prediction work?",
+      "levelId": 6
+    },
+    {
+      "id": 91,
+      "title": "What are tokens in LLMs?",
+      "levelId": 6
+    },
+    {
+      "id": 92,
+      "title": "Context window explained",
+      "levelId": 6
+    },
+    {
+      "id": 93,
+      "title": "Parameters in Large Language Models",
+      "levelId": 6
+    },
+    {
+      "id": 94,
+      "title": "Pretraining vs inference",
+      "levelId": 6
+    },
+    {
+      "id": 95,
+      "title": "Instruction tuning explained",
+      "levelId": 6
+    },
+    {
+      "id": 96,
+      "title": "RLHF explained",
+      "levelId": 6
+    },
+    {
+      "id": 97,
+      "title": "DPO explained",
+      "levelId": 6
+    },
+    {
+      "id": 98,
+      "title": "Reasoning models vs traditional LLMs",
+      "levelId": 6
+    },
+    {
+      "id": 99,
+      "title": "Multimodal Large Language Models",
+      "levelId": 6
+    },
+    {
+      "id": 100,
+      "title": "Foundation models explained",
+      "levelId": 6
+    },
+    {
+      "id": 101,
+      "title": "Open-source vs closed-source LLMs",
+      "levelId": 6
+    },
+    {
+      "id": 102,
+      "title": "GPT vs Claude vs Gemini vs Llama — conceptual comparison",
+      "levelId": 6
+    },
+    {
+      "id": 103,
+      "title": "Small Language Models vs Large Language Models",
+      "levelId": 6
+    },
+    {
+      "id": 104,
+      "title": "Model selection for production applications",
+      "levelId": 6
+    },
+    {
+      "id": 105,
+      "title": "How to integrate an LLM API into a web application",
+      "levelId": 7
+    },
+    {
+      "id": 106,
+      "title": "LLM API architecture",
+      "levelId": 7
+    },
+    {
+      "id": 107,
+      "title": "Chat completion APIs explained",
+      "levelId": 7
+    },
+    {
+      "id": 108,
+      "title": "Streaming LLM responses",
+      "levelId": 7
+    },
+    {
+      "id": 109,
+      "title": "System prompts vs user prompts",
+      "levelId": 7
+    },
+    {
+      "id": 110,
+      "title": "Temperature explained",
+      "levelId": 7
+    },
+    {
+      "id": 111,
+      "title": "Top-p explained",
+      "levelId": 7
+    },
+    {
+      "id": 112,
+      "title": "Max tokens and output limits",
+      "levelId": 7
+    },
+    {
+      "id": 113,
+      "title": "Structured output from LLMs",
+      "levelId": 7
+    },
+    {
+      "id": 114,
+      "title": "JSON mode and schema-constrained generation",
+      "levelId": 7
+    },
+    {
+      "id": 115,
+      "title": "Function calling explained",
+      "levelId": 7
+    },
+    {
+      "id": 116,
+      "title": "Tool calling explained",
+      "levelId": 7
+    },
+    {
+      "id": 117,
+      "title": "Handling LLM API errors",
+      "levelId": 7
+    },
+    {
+      "id": 118,
+      "title": "Retry strategies for LLM APIs",
+      "levelId": 7
+    },
+    {
+      "id": 119,
+      "title": "Rate limiting for LLM applications",
+      "levelId": 7
+    },
+    {
+      "id": 120,
+      "title": "LLM API cost optimization",
+      "levelId": 7
+    },
+    {
+      "id": 121,
+      "title": "LLM latency optimization",
+      "levelId": 7
+    },
+    {
+      "id": 122,
+      "title": "Building production-ready LLM APIs",
+      "levelId": 7
+    },
+    {
+      "id": 123,
+      "title": "Prompt engineering fundamentals",
+      "levelId": 8
+    },
+    {
+      "id": 124,
+      "title": "System prompts explained",
+      "levelId": 8
+    },
+    {
+      "id": 125,
+      "title": "Zero-shot prompting",
+      "levelId": 8
+    },
+    {
+      "id": 126,
+      "title": "Few-shot prompting",
+      "levelId": 8
+    },
+    {
+      "id": 127,
+      "title": "Chain-of-thought concept",
+      "levelId": 8
+    },
+    {
+      "id": 128,
+      "title": "Structured prompting",
+      "levelId": 8
+    },
+    {
+      "id": 129,
+      "title": "Role prompting",
+      "levelId": 8
+    },
+    {
+      "id": 130,
+      "title": "Prompt templates",
+      "levelId": 8
+    },
+    {
+      "id": 131,
+      "title": "Prompt variables",
+      "levelId": 8
+    },
+    {
+      "id": 132,
+      "title": "Prompt injection explained",
+      "levelId": 8
+    },
+    {
+      "id": 133,
+      "title": "Prompt security",
+      "levelId": 8
+    },
+    {
+      "id": 134,
+      "title": "Prompt versioning",
+      "levelId": 8
+    },
+    {
+      "id": 135,
+      "title": "Prompt evaluation",
+      "levelId": 8
+    },
+    {
+      "id": 136,
+      "title": "Common prompt engineering mistakes",
+      "levelId": 8
+    },
+    {
+      "id": 137,
+      "title": "What are embeddings?",
+      "levelId": 9
+    },
+    {
+      "id": 138,
+      "title": "How text becomes an embedding vector",
+      "levelId": 9
+    },
+    {
+      "id": 139,
+      "title": "Semantic meaning of embeddings",
+      "levelId": 9
+    },
+    {
+      "id": 140,
+      "title": "Embedding dimensions explained",
+      "levelId": 9
+    },
+    {
+      "id": 141,
+      "title": "Cosine similarity with embeddings",
+      "levelId": 9
+    },
+    {
+      "id": 142,
+      "title": "Semantic search using embeddings",
+      "levelId": 9
+    },
+    {
+      "id": 143,
+      "title": "Document embeddings vs query embeddings",
+      "levelId": 9
+    },
+    {
+      "id": 144,
+      "title": "Choosing an embedding model",
+      "levelId": 9
+    },
+    {
+      "id": 145,
+      "title": "Embedding models vs LLMs",
+      "levelId": 9
+    },
+    {
+      "id": 146,
+      "title": "When should you use embeddings?",
+      "levelId": 9
+    },
+    {
+      "id": 147,
+      "title": "Common embedding mistakes",
+      "levelId": 9
+    },
+    {
+      "id": 148,
+      "title": "What is a vector database?",
+      "levelId": 10
+    },
+    {
+      "id": 149,
+      "title": "Why do AI applications need vector databases?",
+      "levelId": 10
+    },
+    {
+      "id": 150,
+      "title": "Vector database vs traditional database",
+      "levelId": 10
+    },
+    {
+      "id": 151,
+      "title": "How vector search works",
+      "levelId": 10
+    },
+    {
+      "id": 152,
+      "title": "Approximate nearest neighbor search",
+      "levelId": 10
+    },
+    {
+      "id": 153,
+      "title": "HNSW explained",
+      "levelId": 10
+    },
+    {
+      "id": 154,
+      "title": "Metadata filtering in vector databases",
+      "levelId": 10
+    },
+    {
+      "id": 155,
+      "title": "Hybrid search explained",
+      "levelId": 10
+    },
+    {
+      "id": 156,
+      "title": "Reranking explained",
+      "levelId": 10
+    },
+    {
+      "id": 157,
+      "title": "Vector database indexing",
+      "levelId": 10
+    },
+    {
+      "id": 158,
+      "title": "Vector database scalability",
+      "levelId": 10
+    },
+    {
+      "id": 159,
+      "title": "Pinecone architecture",
+      "levelId": 10
+    },
+    {
+      "id": 160,
+      "title": "Qdrant architecture",
+      "levelId": 10
+    },
+    {
+      "id": 161,
+      "title": "Weaviate architecture",
+      "levelId": 10
+    },
+    {
+      "id": 162,
+      "title": "pgvector architecture",
+      "levelId": 10
+    },
+    {
+      "id": 163,
+      "title": "MongoDB Vector Search",
+      "levelId": 10
+    },
+    {
+      "id": 164,
+      "title": "Choosing a vector database",
+      "levelId": 10
+    },
+    {
+      "id": 165,
+      "title": "What is Retrieval Augmented Generation?",
+      "levelId": 11
+    },
+    {
+      "id": 166,
+      "title": "Why do we need RAG?",
+      "levelId": 11
+    },
+    {
+      "id": 167,
+      "title": "Basic RAG architecture",
+      "levelId": 11
+    },
+    {
+      "id": 168,
+      "title": "End-to-end RAG pipeline",
+      "levelId": 11
+    },
+    {
+      "id": 169,
+      "title": "Document ingestion pipeline for RAG",
+      "levelId": 11
+    },
+    {
+      "id": 170,
+      "title": "Document parsing for RAG",
+      "levelId": 11
+    },
+    {
+      "id": 171,
+      "title": "Document chunking explained",
+      "levelId": 11
+    },
+    {
+      "id": 172,
+      "title": "Chunk size and overlap",
+      "levelId": 11
+    },
+    {
+      "id": 173,
+      "title": "Chunking strategies",
+      "levelId": 11
+    },
+    {
+      "id": 174,
+      "title": "Embedding generation in RAG",
+      "levelId": 11
+    },
+    {
+      "id": 175,
+      "title": "Retrieval in RAG",
+      "levelId": 11
+    },
+    {
+      "id": 176,
+      "title": "Semantic search in RAG",
+      "levelId": 11
+    },
+    {
+      "id": 177,
+      "title": "Metadata filtering in RAG",
+      "levelId": 11
+    },
+    {
+      "id": 178,
+      "title": "Reranking in RAG",
+      "levelId": 11
+    },
+    {
+      "id": 179,
+      "title": "Context construction",
+      "levelId": 11
+    },
+    {
+      "id": 180,
+      "title": "RAG prompt design",
+      "levelId": 11
+    },
+    {
+      "id": 181,
+      "title": "Generating answers from retrieved documents",
+      "levelId": 11
+    },
+    {
+      "id": 182,
+      "title": "Citations in RAG",
+      "levelId": 11
+    },
+    {
+      "id": 183,
+      "title": "RAG hallucinations",
+      "levelId": 11
+    },
+    {
+      "id": 184,
+      "title": "RAG failure modes",
+      "levelId": 11
+    },
+    {
+      "id": 185,
+      "title": "RAG latency optimization",
+      "levelId": 11
+    },
+    {
+      "id": 186,
+      "title": "RAG cost optimization",
+      "levelId": 11
+    },
+    {
+      "id": 187,
+      "title": "RAG security",
+      "levelId": 11
+    },
+    {
+      "id": 188,
+      "title": "Production RAG architecture",
+      "levelId": 11
+    },
+    {
+      "id": 189,
+      "title": "Naive RAG vs advanced RAG",
+      "levelId": 12
+    },
+    {
+      "id": 190,
+      "title": "Query rewriting",
+      "levelId": 12
+    },
+    {
+      "id": 191,
+      "title": "Query expansion",
+      "levelId": 12
+    },
+    {
+      "id": 192,
+      "title": "Multi-query retrieval",
+      "levelId": 12
+    },
+    {
+      "id": 193,
+      "title": "HyDE explained",
+      "levelId": 12
+    },
+    {
+      "id": 194,
+      "title": "Hybrid search",
+      "levelId": 12
+    },
+    {
+      "id": 195,
+      "title": "Sparse vs dense retrieval",
+      "levelId": 12
+    },
+    {
+      "id": 196,
+      "title": "Reranking models",
+      "levelId": 12
+    },
+    {
+      "id": 197,
+      "title": "Contextual retrieval",
+      "levelId": 12
+    },
+    {
+      "id": 198,
+      "title": "Parent-child retrieval",
+      "levelId": 12
+    },
+    {
+      "id": 199,
+      "title": "Hierarchical retrieval",
+      "levelId": 12
+    },
+    {
+      "id": 200,
+      "title": "Agentic RAG",
+      "levelId": 12
+    },
+    {
+      "id": 201,
+      "title": "Graph RAG",
+      "levelId": 12
+    },
+    {
+      "id": 202,
+      "title": "Knowledge graphs vs vector databases",
+      "levelId": 12
+    },
+    {
+      "id": 203,
+      "title": "Multimodal RAG",
+      "levelId": 12
+    },
+    {
+      "id": 204,
+      "title": "RAG for PDFs",
+      "levelId": 12
+    },
+    {
+      "id": 205,
+      "title": "RAG for tables",
+      "levelId": 12
+    },
+    {
+      "id": 206,
+      "title": "RAG for images",
+      "levelId": 12
+    },
+    {
+      "id": 207,
+      "title": "RAG for structured databases",
+      "levelId": 12
+    },
+    {
+      "id": 208,
+      "title": "RAG evaluation",
+      "levelId": 12
+    },
+    {
+      "id": 209,
+      "title": "Advanced RAG architecture",
+      "levelId": 12
+    },
+    {
+      "id": 210,
+      "title": "What is fine-tuning?",
+      "levelId": 13
+    },
+    {
+      "id": 211,
+      "title": "RAG vs fine-tuning",
+      "levelId": 13
+    },
+    {
+      "id": 212,
+      "title": "When should you fine-tune an LLM?",
+      "levelId": 13
+    },
+    {
+      "id": 213,
+      "title": "When should you NOT fine-tune?",
+      "levelId": 13
+    },
+    {
+      "id": 214,
+      "title": "Supervised fine-tuning",
+      "levelId": 13
+    },
+    {
+      "id": 215,
+      "title": "Instruction fine-tuning",
+      "levelId": 13
+    },
+    {
+      "id": 216,
+      "title": "Dataset preparation for fine-tuning",
+      "levelId": 13
+    },
+    {
+      "id": 217,
+      "title": "Fine-tuning lifecycle",
+      "levelId": 13
+    },
+    {
+      "id": 218,
+      "title": "LoRA explained",
+      "levelId": 13
+    },
+    {
+      "id": 219,
+      "title": "QLoRA explained",
+      "levelId": 13
+    },
+    {
+      "id": 220,
+      "title": "Parameter-efficient fine-tuning",
+      "levelId": 13
+    },
+    {
+      "id": 221,
+      "title": "Fine-tuning costs and tradeoffs",
+      "levelId": 13
+    },
+    {
+      "id": 222,
+      "title": "Fine-tuning vs prompting vs RAG",
+      "levelId": 13
+    },
+    {
+      "id": 223,
+      "title": "Model adaptation strategies",
+      "levelId": 13
+    },
+    {
+      "id": 224,
+      "title": "What is an AI agent?",
+      "levelId": 14
+    },
+    {
+      "id": 225,
+      "title": "LLM vs AI agent",
+      "levelId": 14
+    },
+    {
+      "id": 226,
+      "title": "AI agent architecture",
+      "levelId": 14
+    },
+    {
+      "id": 227,
+      "title": "Agent loop explained",
+      "levelId": 14
+    },
+    {
+      "id": 228,
+      "title": "Tool calling for AI agents",
+      "levelId": 14
+    },
+    {
+      "id": 229,
+      "title": "Function calling for agents",
+      "levelId": 14
+    },
+    {
+      "id": 230,
+      "title": "Agent planning",
+      "levelId": 14
+    },
+    {
+      "id": 231,
+      "title": "Agent reasoning",
+      "levelId": 14
+    },
+    {
+      "id": 232,
+      "title": "Agent state",
+      "levelId": 14
+    },
+    {
+      "id": 233,
+      "title": "Agent memory",
+      "levelId": 14
+    },
+    {
+      "id": 234,
+      "title": "Short-term vs long-term memory",
+      "levelId": 14
+    },
+    {
+      "id": 235,
+      "title": "Agent workflows",
+      "levelId": 14
+    },
+    {
+      "id": 236,
+      "title": "Workflow vs autonomous agent",
+      "levelId": 14
+    },
+    {
+      "id": 237,
+      "title": "Human-in-the-loop agents",
+      "levelId": 14
+    },
+    {
+      "id": 238,
+      "title": "Agent permissions and authorization",
+      "levelId": 14
+    },
+    {
+      "id": 239,
+      "title": "Agent reliability",
+      "levelId": 14
+    },
+    {
+      "id": 240,
+      "title": "Agent failure modes",
+      "levelId": 14
+    },
+    {
+      "id": 241,
+      "title": "Agent hallucinations",
+      "levelId": 14
+    },
+    {
+      "id": 242,
+      "title": "Multi-agent systems",
+      "levelId": 14
+    },
+    {
+      "id": 243,
+      "title": "Agent orchestration",
+      "levelId": 14
+    },
+    {
+      "id": 244,
+      "title": "Agent evaluation",
+      "levelId": 14
+    },
+    {
+      "id": 245,
+      "title": "Production AI agent architecture",
+      "levelId": 14
+    },
+    {
+      "id": 246,
+      "title": "What problem does LangChain solve?",
+      "levelId": 15
+    },
+    {
+      "id": 247,
+      "title": "LangGraph architecture",
+      "levelId": 15
+    },
+    {
+      "id": 248,
+      "title": "LlamaIndex architecture",
+      "levelId": 15
+    },
+    {
+      "id": 249,
+      "title": "Semantic Kernel overview",
+      "levelId": 15
+    },
+    {
+      "id": 250,
+      "title": "AI SDK architecture",
+      "levelId": 15
+    },
+    {
+      "id": 251,
+      "title": "LangChain vs LangGraph vs LlamaIndex",
+      "levelId": 15
+    },
+    {
+      "id": 252,
+      "title": "When should you NOT use an AI framework?",
+      "levelId": 15
+    },
+    {
+      "id": 253,
+      "title": "Building AI applications without frameworks",
+      "levelId": 15
+    },
+    {
+      "id": 254,
+      "title": "AI framework abstraction vs direct model APIs",
+      "levelId": 15
+    },
+    {
+      "id": 255,
+      "title": "Choosing an AI framework for production",
+      "levelId": 15
+    },
+    {
+      "id": 256,
+      "title": "Why AI evaluation is difficult",
+      "levelId": 16
+    },
+    {
+      "id": 257,
+      "title": "Evaluating LLM responses",
+      "levelId": 16
+    },
+    {
+      "id": 258,
+      "title": "LLM evaluation metrics",
+      "levelId": 16
+    },
+    {
+      "id": 259,
+      "title": "RAG evaluation",
+      "levelId": 16
+    },
+    {
+      "id": 260,
+      "title": "Retrieval evaluation",
+      "levelId": 16
+    },
+    {
+      "id": 261,
+      "title": "Precision and recall for retrieval",
+      "levelId": 16
+    },
+    {
+      "id": 262,
+      "title": "Faithfulness vs relevance",
+      "levelId": 16
+    },
+    {
+      "id": 263,
+      "title": "Groundedness in AI",
+      "levelId": 16
+    },
+    {
+      "id": 264,
+      "title": "Hallucination evaluation",
+      "levelId": 16
+    },
+    {
+      "id": 265,
+      "title": "LLM-as-a-judge",
+      "levelId": 16
+    },
+    {
+      "id": 266,
+      "title": "Human evaluation",
+      "levelId": 16
+    },
+    {
+      "id": 267,
+      "title": "Evaluation datasets",
+      "levelId": 16
+    },
+    {
+      "id": 268,
+      "title": "AI regression testing",
+      "levelId": 16
+    },
+    {
+      "id": 269,
+      "title": "Testing prompts",
+      "levelId": 16
+    },
+    {
+      "id": 270,
+      "title": "Testing AI agents",
+      "levelId": 16
+    },
+    {
+      "id": 271,
+      "title": "Production AI evaluation strategy",
+      "levelId": 16
+    },
+    {
+      "id": 272,
+      "title": "What is AI observability?",
+      "levelId": 17
+    },
+    {
+      "id": 273,
+      "title": "Why normal application monitoring isn't enough for AI",
+      "levelId": 17
+    },
+    {
+      "id": 274,
+      "title": "LLM tracing",
+      "levelId": 17
+    },
+    {
+      "id": 275,
+      "title": "Token usage monitoring",
+      "levelId": 17
+    },
+    {
+      "id": 276,
+      "title": "LLM latency monitoring",
+      "levelId": 17
+    },
+    {
+      "id": 277,
+      "title": "LLM cost monitoring",
+      "levelId": 17
+    },
+    {
+      "id": 278,
+      "title": "Prompt and response logging",
+      "levelId": 17
+    },
+    {
+      "id": 279,
+      "title": "Agent execution tracing",
+      "levelId": 17
+    },
+    {
+      "id": 280,
+      "title": "RAG observability",
+      "levelId": 17
+    },
+    {
+      "id": 281,
+      "title": "AI debugging",
+      "levelId": 17
+    },
+    {
+      "id": 282,
+      "title": "OpenTelemetry for AI applications",
+      "levelId": 17
+    },
+    {
+      "id": 283,
+      "title": "Langfuse architecture",
+      "levelId": 17
+    },
+    {
+      "id": 284,
+      "title": "AI production monitoring",
+      "levelId": 17
+    },
+    {
+      "id": 285,
+      "title": "AI security fundamentals",
+      "levelId": 18
+    },
+    {
+      "id": 286,
+      "title": "Prompt injection",
+      "levelId": 18
+    },
+    {
+      "id": 287,
+      "title": "Indirect prompt injection",
+      "levelId": 18
+    },
+    {
+      "id": 288,
+      "title": "Jailbreaking",
+      "levelId": 18
+    },
+    {
+      "id": 289,
+      "title": "LLM data leakage",
+      "levelId": 18
+    },
+    {
+      "id": 290,
+      "title": "Sensitive data in LLM applications",
+      "levelId": 18
+    },
+    {
+      "id": 291,
+      "title": "PII protection in AI systems",
+      "levelId": 18
+    },
+    {
+      "id": 292,
+      "title": "AI authorization",
+      "levelId": 18
+    },
+    {
+      "id": 293,
+      "title": "Agent permission systems",
+      "levelId": 18
+    },
+    {
+      "id": 294,
+      "title": "Secure tool calling",
+      "levelId": 18
+    },
+    {
+      "id": 295,
+      "title": "RAG security",
+      "levelId": 18
+    },
+    {
+      "id": 296,
+      "title": "Malicious documents in RAG",
+      "levelId": 18
+    },
+    {
+      "id": 297,
+      "title": "Model supply chain security",
+      "levelId": 18
+    },
+    {
+      "id": 298,
+      "title": "AI API security",
+      "levelId": 18
+    },
+    {
+      "id": 299,
+      "title": "AI application threat modeling",
+      "levelId": 18
+    },
+    {
+      "id": 300,
+      "title": "OWASP Top 10 for LLM Applications",
+      "levelId": 18
+    },
+    {
+      "id": 301,
+      "title": "Designing secure AI applications",
+      "levelId": 18
+    },
+    {
+      "id": 302,
+      "title": "AI infrastructure explained",
+      "levelId": 19
+    },
+    {
+      "id": 303,
+      "title": "CPU vs GPU",
+      "levelId": 19
+    },
+    {
+      "id": 304,
+      "title": "GPU architecture for AI",
+      "levelId": 19
+    },
+    {
+      "id": 305,
+      "title": "CUDA explained conceptually",
+      "levelId": 19
+    },
+    {
+      "id": 306,
+      "title": "GPU memory and why it matters",
+      "levelId": 19
+    },
+    {
+      "id": 307,
+      "title": "Model inference infrastructure",
+      "levelId": 19
+    },
+    {
+      "id": 308,
+      "title": "Self-hosted vs API-based LLMs",
+      "levelId": 19
+    },
+    {
+      "id": 309,
+      "title": "Model serving",
+      "levelId": 19
+    },
+    {
+      "id": 310,
+      "title": "LLM inference servers",
+      "levelId": 19
+    },
+    {
+      "id": 311,
+      "title": "Quantization",
+      "levelId": 19
+    },
+    {
+      "id": 312,
+      "title": "Model compression",
+      "levelId": 19
+    },
+    {
+      "id": 313,
+      "title": "Batch inference",
+      "levelId": 19
+    },
+    {
+      "id": 314,
+      "title": "Streaming inference",
+      "levelId": 19
+    },
+    {
+      "id": 315,
+      "title": "Distributed inference",
+      "levelId": 19
+    },
+    {
+      "id": 316,
+      "title": "GPU scaling",
+      "levelId": 19
+    },
+    {
+      "id": 317,
+      "title": "AI infrastructure cost optimization",
+      "levelId": 19
+    },
+    {
+      "id": 318,
+      "title": "Cloud architecture fundamentals for AI",
+      "levelId": 20
+    },
+    {
+      "id": 319,
+      "title": "AWS AI architecture overview",
+      "levelId": 20
+    },
+    {
+      "id": 320,
+      "title": "Azure AI architecture overview",
+      "levelId": 20
+    },
+    {
+      "id": 321,
+      "title": "Google Cloud AI architecture overview",
+      "levelId": 20
+    },
+    {
+      "id": 322,
+      "title": "Cloud GPU infrastructure",
+      "levelId": 20
+    },
+    {
+      "id": 323,
+      "title": "Object storage for AI systems",
+      "levelId": 20
+    },
+    {
+      "id": 324,
+      "title": "Databases for AI applications",
+      "levelId": 20
+    },
+    {
+      "id": 325,
+      "title": "Queues and event systems for AI",
+      "levelId": 20
+    },
+    {
+      "id": 326,
+      "title": "Serverless AI applications",
+      "levelId": 20
+    },
+    {
+      "id": 327,
+      "title": "Kubernetes for AI workloads",
+      "levelId": 20
+    },
+    {
+      "id": 328,
+      "title": "AI workloads on Kubernetes",
+      "levelId": 20
+    },
+    {
+      "id": 329,
+      "title": "AI cloud architecture patterns",
+      "levelId": 20
+    },
+    {
+      "id": 330,
+      "title": "Designing scalable AI infrastructure",
+      "levelId": 20
+    },
+    {
+      "id": 331,
+      "title": "Docker for AI applications",
+      "levelId": 21
+    },
+    {
+      "id": 332,
+      "title": "CI/CD for AI applications",
+      "levelId": 21
+    },
+    {
+      "id": 333,
+      "title": "MLOps vs DevOps",
+      "levelId": 21
+    },
+    {
+      "id": 334,
+      "title": "Model deployment lifecycle",
+      "levelId": 21
+    },
+    {
+      "id": 335,
+      "title": "Model versioning",
+      "levelId": 21
+    },
+    {
+      "id": 336,
+      "title": "Dataset versioning",
+      "levelId": 21
+    },
+    {
+      "id": 337,
+      "title": "Model monitoring",
+      "levelId": 21
+    },
+    {
+      "id": 338,
+      "title": "Model rollback strategies",
+      "levelId": 21
+    },
+    {
+      "id": 339,
+      "title": "AI deployment strategies",
+      "levelId": 21
+    },
+    {
+      "id": 340,
+      "title": "Blue-green deployment for AI",
+      "levelId": 21
+    },
+    {
+      "id": 341,
+      "title": "Canary deployments for AI",
+      "levelId": 21
+    },
+    {
+      "id": 342,
+      "title": "Infrastructure as Code for AI",
+      "levelId": 21
+    },
+    {
+      "id": 343,
+      "title": "Terraform for AI infrastructure — concepts",
+      "levelId": 21
+    },
+    {
+      "id": 344,
+      "title": "Production AI deployment architecture",
+      "levelId": 21
+    },
+    {
+      "id": 345,
+      "title": "Why data engineering matters for AI",
+      "levelId": 22
+    },
+    {
+      "id": 346,
+      "title": "Data pipelines explained",
+      "levelId": 22
+    },
+    {
+      "id": 347,
+      "title": "ETL vs ELT",
+      "levelId": 22
+    },
+    {
+      "id": 348,
+      "title": "Batch processing vs streaming",
+      "levelId": 22
+    },
+    {
+      "id": 349,
+      "title": "Data warehouses",
+      "levelId": 22
+    },
+    {
+      "id": 350,
+      "title": "Data lakes",
+      "levelId": 22
+    },
+    {
+      "id": 351,
+      "title": "Data lakehouse architecture",
+      "levelId": 22
+    },
+    {
+      "id": 352,
+      "title": "Kafka fundamentals",
+      "levelId": 22
+    },
+    {
+      "id": 353,
+      "title": "Event-driven architecture",
+      "levelId": 22
+    },
+    {
+      "id": 354,
+      "title": "Data quality for AI",
+      "levelId": 22
+    },
+    {
+      "id": 355,
+      "title": "Data preprocessing for AI",
+      "levelId": 22
+    },
+    {
+      "id": 356,
+      "title": "Data pipelines for RAG",
+      "levelId": 22
+    },
+    {
+      "id": 357,
+      "title": "Real-time AI data pipelines",
+      "levelId": 22
+    },
+    {
+      "id": 358,
+      "title": "Enterprise AI data architecture",
+      "levelId": 22
+    },
+    {
+      "id": 359,
+      "title": "System design fundamentals",
+      "levelId": 23
+    },
+    {
+      "id": 360,
+      "title": "Scalability fundamentals",
+      "levelId": 23
+    },
+    {
+      "id": 361,
+      "title": "Horizontal vs vertical scaling",
+      "levelId": 23
+    },
+    {
+      "id": 362,
+      "title": "Load balancing",
+      "levelId": 23
+    },
+    {
+      "id": 363,
+      "title": "Caching strategies",
+      "levelId": 23
+    },
+    {
+      "id": 364,
+      "title": "Redis architecture",
+      "levelId": 23
+    },
+    {
+      "id": 365,
+      "title": "Database scaling",
+      "levelId": 23
+    },
+    {
+      "id": 366,
+      "title": "SQL vs NoSQL architecture",
+      "levelId": 23
+    },
+    {
+      "id": 367,
+      "title": "Database indexing",
+      "levelId": 23
+    },
+    {
+      "id": 368,
+      "title": "Replication",
+      "levelId": 23
+    },
+    {
+      "id": 369,
+      "title": "Sharding",
+      "levelId": 23
+    },
+    {
+      "id": 370,
+      "title": "Message queues",
+      "levelId": 23
+    },
+    {
+      "id": 371,
+      "title": "Event-driven architecture",
+      "levelId": 23
+    },
+    {
+      "id": 372,
+      "title": "Pub/sub architecture",
+      "levelId": 23
+    },
+    {
+      "id": 373,
+      "title": "Microservices architecture",
+      "levelId": 23
+    },
+    {
+      "id": 374,
+      "title": "Monolith vs microservices",
+      "levelId": 23
+    },
+    {
+      "id": 375,
+      "title": "API gateway architecture",
+      "levelId": 23
+    },
+    {
+      "id": 376,
+      "title": "Rate limiting",
+      "levelId": 23
+    },
+    {
+      "id": 377,
+      "title": "Distributed systems fundamentals",
+      "levelId": 23
+    },
+    {
+      "id": 378,
+      "title": "CAP theorem",
+      "levelId": 23
+    },
+    {
+      "id": 379,
+      "title": "Consistency vs availability",
+      "levelId": 23
+    },
+    {
+      "id": 380,
+      "title": "Idempotency",
+      "levelId": 23
+    },
+    {
+      "id": 381,
+      "title": "Fault tolerance",
+      "levelId": 23
+    },
+    {
+      "id": 382,
+      "title": "Retries and exponential backoff",
+      "levelId": 23
+    },
+    {
+      "id": 383,
+      "title": "Circuit breakers",
+      "levelId": 23
+    },
+    {
+      "id": 384,
+      "title": "Distributed tracing",
+      "levelId": 23
+    },
+    {
+      "id": 385,
+      "title": "Designing highly available systems",
+      "levelId": 23
+    },
+    {
+      "id": 386,
+      "title": "AI system design fundamentals",
+      "levelId": 24
+    },
+    {
+      "id": 387,
+      "title": "Designing an LLM-powered application",
+      "levelId": 24
+    },
+    {
+      "id": 388,
+      "title": "Designing a production RAG system",
+      "levelId": 24
+    },
+    {
+      "id": 389,
+      "title": "Designing an AI chatbot at scale",
+      "levelId": 24
+    },
+    {
+      "id": 390,
+      "title": "Designing an AI customer support platform",
+      "levelId": 24
+    },
+    {
+      "id": 391,
+      "title": "Designing an AI document processing system",
+      "levelId": 24
+    },
+    {
+      "id": 392,
+      "title": "Designing an AI search engine",
+      "levelId": 24
+    },
+    {
+      "id": 393,
+      "title": "Designing an AI recommendation system",
+      "levelId": 24
+    },
+    {
+      "id": 394,
+      "title": "Designing an AI data analyst",
+      "levelId": 24
+    },
+    {
+      "id": 395,
+      "title": "Designing an AI coding assistant",
+      "levelId": 24
+    },
+    {
+      "id": 396,
+      "title": "Designing an AI voice assistant",
+      "levelId": 24
+    },
+    {
+      "id": 397,
+      "title": "Designing an AI agent platform",
+      "levelId": 24
+    },
+    {
+      "id": 398,
+      "title": "Designing a multi-agent system",
+      "levelId": 24
+    },
+    {
+      "id": 399,
+      "title": "Designing an enterprise AI platform",
+      "levelId": 24
+    },
+    {
+      "id": 400,
+      "title": "Designing AI systems for millions of users",
+      "levelId": 24
+    },
+    {
+      "id": 401,
+      "title": "LLM cost optimization",
+      "levelId": 25
+    },
+    {
+      "id": 402,
+      "title": "Token optimization",
+      "levelId": 25
+    },
+    {
+      "id": 403,
+      "title": "Prompt optimization for cost",
+      "levelId": 25
+    },
+    {
+      "id": 404,
+      "title": "Model routing",
+      "levelId": 25
+    },
+    {
+      "id": 405,
+      "title": "Small model vs large model architecture",
+      "levelId": 25
+    },
+    {
+      "id": 406,
+      "title": "Model fallback strategies",
+      "levelId": 25
+    },
+    {
+      "id": 407,
+      "title": "AI caching strategies",
+      "levelId": 25
+    },
+    {
+      "id": 408,
+      "title": "Semantic caching",
+      "levelId": 25
+    },
+    {
+      "id": 409,
+      "title": "RAG performance optimization",
+      "levelId": 25
+    },
+    {
+      "id": 410,
+      "title": "AI latency optimization",
+      "levelId": 25
+    },
+    {
+      "id": 411,
+      "title": "AI throughput optimization",
+      "levelId": 25
+    },
+    {
+      "id": 412,
+      "title": "Production AI cost estimation",
+      "levelId": 25
+    },
+    {
+      "id": 413,
+      "title": "Designing AI systems under a fixed budget",
+      "levelId": 25
+    },
+    {
+      "id": 414,
+      "title": "AI cost vs quality vs latency tradeoffs",
+      "levelId": 25
+    },
+    {
+      "id": 415,
+      "title": "What is a Forward Deployed Engineer?",
+      "levelId": 26
+    },
+    {
+      "id": 416,
+      "title": "Forward Deployed Engineer vs Software Engineer",
+      "levelId": 26
+    },
+    {
+      "id": 417,
+      "title": "Forward Deployed Engineer vs Solutions Engineer",
+      "levelId": 26
+    },
+    {
+      "id": 418,
+      "title": "Forward Deployed Engineer vs Solutions Architect",
+      "levelId": 26
+    },
+    {
+      "id": 419,
+      "title": "Skills required for an FDE",
+      "levelId": 26
+    },
+    {
+      "id": 420,
+      "title": "What does an FDE actually do?",
+      "levelId": 26
+    },
+    {
+      "id": 421,
+      "title": "FDE customer discovery",
+      "levelId": 26
+    },
+    {
+      "id": 422,
+      "title": "Technical discovery for enterprise customers",
+      "levelId": 26
+    },
+    {
+      "id": 423,
+      "title": "Requirements gathering",
+      "levelId": 26
+    },
+    {
+      "id": 424,
+      "title": "Turning business problems into technical solutions",
+      "levelId": 26
+    },
+    {
+      "id": 425,
+      "title": "Solution architecture for customers",
+      "levelId": 26
+    },
+    {
+      "id": 426,
+      "title": "Rapid prototyping as an FDE",
+      "levelId": 26
+    },
+    {
+      "id": 427,
+      "title": "Proof of Concept development",
+      "levelId": 26
+    },
+    {
+      "id": 428,
+      "title": "Productionizing a customer prototype",
+      "levelId": 26
+    },
+    {
+      "id": 429,
+      "title": "Working directly with customers as an engineer",
+      "levelId": 26
+    },
+    {
+      "id": 430,
+      "title": "Technical communication with non-technical stakeholders",
+      "levelId": 26
+    },
+    {
+      "id": 431,
+      "title": "Explaining technical architecture to executives",
+      "levelId": 26
+    },
+    {
+      "id": 432,
+      "title": "Handling ambiguous engineering requirements",
+      "levelId": 26
+    },
+    {
+      "id": 433,
+      "title": "FDE project lifecycle",
+      "levelId": 26
+    },
+    {
+      "id": 434,
+      "title": "FDE case study walkthroughs",
+      "levelId": 26
+    },
+    {
+      "id": 435,
+      "title": "How to become an AI FDE",
+      "levelId": 26
+    },
+    {
+      "id": 436,
+      "title": "Product thinking for software engineers",
+      "levelId": 27
+    },
+    {
+      "id": 437,
+      "title": "How to identify the real customer problem",
+      "levelId": 27
+    },
+    {
+      "id": 438,
+      "title": "Problem discovery vs solution discovery",
+      "levelId": 27
+    },
+    {
+      "id": 439,
+      "title": "Requirements vs assumptions",
+      "levelId": 27
+    },
+    {
+      "id": 440,
+      "title": "Functional vs non-functional requirements",
+      "levelId": 27
+    },
+    {
+      "id": 441,
+      "title": "MVP thinking",
+      "levelId": 27
+    },
+    {
+      "id": 442,
+      "title": "Prototype vs MVP vs production",
+      "levelId": 27
+    },
+    {
+      "id": 443,
+      "title": "Measuring AI product success",
+      "levelId": 27
+    },
+    {
+      "id": 444,
+      "title": "AI product metrics",
+      "levelId": 27
+    },
+    {
+      "id": 445,
+      "title": "AI ROI calculation",
+      "levelId": 27
+    },
+    {
+      "id": 446,
+      "title": "Build vs buy decisions",
+      "levelId": 27
+    },
+    {
+      "id": 447,
+      "title": "AI API vs self-hosted model decision",
+      "levelId": 27
+    },
+    {
+      "id": 448,
+      "title": "RAG vs fine-tuning business decision",
+      "levelId": 27
+    },
+    {
+      "id": 449,
+      "title": "Model selection based on business requirements",
+      "levelId": 27
+    },
+    {
+      "id": 450,
+      "title": "AI product tradeoffs",
+      "levelId": 27
+    },
+    {
+      "id": 451,
+      "title": "What does a software architect actually do?",
+      "levelId": 28
+    },
+    {
+      "id": 452,
+      "title": "Software architect vs senior engineer",
+      "levelId": 28
+    },
+    {
+      "id": 453,
+      "title": "Solution architect vs system architect",
+      "levelId": 28
+    },
+    {
+      "id": 454,
+      "title": "AI architect responsibilities",
+      "levelId": 28
+    },
+    {
+      "id": 455,
+      "title": "Architecture decision making",
+      "levelId": 28
+    },
+    {
+      "id": 456,
+      "title": "Architecture tradeoffs",
+      "levelId": 28
+    },
+    {
+      "id": 457,
+      "title": "Architecture patterns",
+      "levelId": 28
+    },
+    {
+      "id": 458,
+      "title": "Architecture documentation",
+      "levelId": 28
+    },
+    {
+      "id": 459,
+      "title": "Architecture diagrams",
+      "levelId": 28
+    },
+    {
+      "id": 460,
+      "title": "C4 model explained",
+      "levelId": 28
+    },
+    {
+      "id": 461,
+      "title": "Architecture Decision Records",
+      "levelId": 28
+    },
+    {
+      "id": 462,
+      "title": "Designing for scalability",
+      "levelId": 28
+    },
+    {
+      "id": 463,
+      "title": "Designing for reliability",
+      "levelId": 28
+    },
+    {
+      "id": 464,
+      "title": "Designing for security",
+      "levelId": 28
+    },
+    {
+      "id": 465,
+      "title": "Designing for maintainability",
+      "levelId": 28
+    },
+    {
+      "id": 466,
+      "title": "Designing for cost",
+      "levelId": 28
+    },
+    {
+      "id": 467,
+      "title": "Designing distributed systems",
+      "levelId": 28
+    },
+    {
+      "id": 468,
+      "title": "Designing enterprise systems",
+      "levelId": 28
+    },
+    {
+      "id": 469,
+      "title": "Designing AI enterprise architecture",
+      "levelId": 28
+    },
+    {
+      "id": 470,
+      "title": "How to review a system architecture",
+      "levelId": 28
+    },
+    {
+      "id": 471,
+      "title": "Enterprise API integration",
+      "levelId": 29
+    },
+    {
+      "id": 472,
+      "title": "REST vs GraphQL vs gRPC",
+      "levelId": 29
+    },
+    {
+      "id": 473,
+      "title": "Webhooks explained",
+      "levelId": 29
+    },
+    {
+      "id": 474,
+      "title": "OAuth 2.0",
+      "levelId": 29
+    },
+    {
+      "id": 475,
+      "title": "OpenID Connect",
+      "levelId": 29
+    },
+    {
+      "id": 476,
+      "title": "SSO architecture",
+      "levelId": 29
+    },
+    {
+      "id": 477,
+      "title": "SAML explained",
+      "levelId": 29
+    },
+    {
+      "id": 478,
+      "title": "Enterprise identity systems",
+      "levelId": 29
+    },
+    {
+      "id": 479,
+      "title": "RBAC",
+      "levelId": 29
+    },
+    {
+      "id": 480,
+      "title": "ABAC",
+      "levelId": 29
+    },
+    {
+      "id": 481,
+      "title": "Multi-tenancy architecture",
+      "levelId": 29
+    },
+    {
+      "id": 482,
+      "title": "Enterprise data integration",
+      "levelId": 29
+    },
+    {
+      "id": 483,
+      "title": "CRM integrations",
+      "levelId": 29
+    },
+    {
+      "id": 484,
+      "title": "ERP integrations",
+      "levelId": 29
+    },
+    {
+      "id": 485,
+      "title": "Payment integrations",
+      "levelId": 29
+    },
+    {
+      "id": 486,
+      "title": "Email and messaging integrations",
+      "levelId": 29
+    },
+    {
+      "id": 487,
+      "title": "Third-party API reliability",
+      "levelId": 29
+    },
+    {
+      "id": 488,
+      "title": "Enterprise integration architecture",
+      "levelId": 29
+    },
+    {
+      "id": 489,
+      "title": "Adding AI to an existing SaaS application",
+      "levelId": 30
+    },
+    {
+      "id": 490,
+      "title": "Adding RAG to an existing backend",
+      "levelId": 30
+    },
+    {
+      "id": 491,
+      "title": "Adding AI agents to an existing application",
+      "levelId": 30
+    },
+    {
+      "id": 492,
+      "title": "AI integration with Node.js",
+      "levelId": 30
+    },
+    {
+      "id": 493,
+      "title": "AI integration with NestJS",
+      "levelId": 30
+    },
+    {
+      "id": 494,
+      "title": "AI integration with MongoDB",
+      "levelId": 30
+    },
+    {
+      "id": 495,
+      "title": "AI integration with PostgreSQL",
+      "levelId": 30
+    },
+    {
+      "id": 496,
+      "title": "AI integration with Redis",
+      "levelId": 30
+    },
+    {
+      "id": 497,
+      "title": "AI integration with microservices",
+      "levelId": 30
+    },
+    {
+      "id": 498,
+      "title": "AI integration with REST APIs",
+      "levelId": 30
+    },
+    {
+      "id": 499,
+      "title": "AI integration with event-driven systems",
+      "levelId": 30
+    },
+    {
+      "id": 500,
+      "title": "AI architecture for existing enterprise software",
+      "levelId": 30
+    },
+    {
+      "id": 501,
+      "title": "Design ChatGPT-like application architecture",
+      "levelId": 31
+    },
+    {
+      "id": 502,
+      "title": "Design an enterprise AI chatbot",
+      "levelId": 31
+    },
+    {
+      "id": 503,
+      "title": "Design an AI customer support system",
+      "levelId": 31
+    },
+    {
+      "id": 504,
+      "title": "Design an AI sales assistant",
+      "levelId": 31
+    },
+    {
+      "id": 505,
+      "title": "Design an AI coding assistant",
+      "levelId": 31
+    },
+    {
+      "id": 506,
+      "title": "Design an AI HR assistant",
+      "levelId": 31
+    },
+    {
+      "id": 507,
+      "title": "Design an AI legal document assistant",
+      "levelId": 31
+    },
+    {
+      "id": 508,
+      "title": "Design an AI healthcare assistant",
+      "levelId": 31
+    },
+    {
+      "id": 509,
+      "title": "Design an AI financial assistant",
+      "levelId": 31
+    },
+    {
+      "id": 510,
+      "title": "Design an AI logistics platform",
+      "levelId": 31
+    },
+    {
+      "id": 511,
+      "title": "Design an AI CRM assistant",
+      "levelId": 31
+    },
+    {
+      "id": 512,
+      "title": "Design an AI analytics platform",
+      "levelId": 31
+    },
+    {
+      "id": 513,
+      "title": "Design an AI document processing pipeline",
+      "levelId": 31
+    },
+    {
+      "id": 514,
+      "title": "Design an AI email automation system",
+      "levelId": 31
+    },
+    {
+      "id": 515,
+      "title": "Design an AI voice agent",
+      "levelId": 31
+    },
+    {
+      "id": 516,
+      "title": "Design an AI call center",
+      "levelId": 31
+    },
+    {
+      "id": 517,
+      "title": "Design an AI workflow automation platform",
+      "levelId": 31
+    },
+    {
+      "id": 518,
+      "title": "Design an enterprise AI agent platform",
+      "levelId": 31
+    },
+    {
+      "id": 519,
+      "title": "Design a multi-tenant AI SaaS",
+      "levelId": 31
+    },
+    {
+      "id": 520,
+      "title": "Design an AI platform for millions of users",
+      "levelId": 31
+    },
+    {
+      "id": 521,
+      "title": "How to approach an architecture problem",
+      "levelId": 32
+    },
+    {
+      "id": 522,
+      "title": "How to clarify ambiguous requirements",
+      "levelId": 32
+    },
+    {
+      "id": 523,
+      "title": "How to ask the right technical questions",
+      "levelId": 32
+    },
+    {
+      "id": 524,
+      "title": "How to estimate system scale",
+      "levelId": 32
+    },
+    {
+      "id": 525,
+      "title": "How to estimate AI model costs",
+      "levelId": 32
+    },
+    {
+      "id": 526,
+      "title": "How to choose a database",
+      "levelId": 32
+    },
+    {
+      "id": 527,
+      "title": "How to choose an LLM",
+      "levelId": 32
+    },
+    {
+      "id": 528,
+      "title": "How to choose between RAG and fine-tuning",
+      "levelId": 32
+    },
+    {
+      "id": 529,
+      "title": "How to choose between an agent and deterministic workflow",
+      "levelId": 32
+    },
+    {
+      "id": 530,
+      "title": "How to choose between microservices and monolith",
+      "levelId": 32
+    },
+    {
+      "id": 531,
+      "title": "How to choose between managed and self-hosted AI",
+      "levelId": 32
+    },
+    {
+      "id": 532,
+      "title": "How to identify system bottlenecks",
+      "levelId": 32
+    },
+    {
+      "id": 533,
+      "title": "How to identify architecture risks",
+      "levelId": 32
+    },
+    {
+      "id": 534,
+      "title": "How to perform technical tradeoff analysis",
+      "levelId": 32
+    },
+    {
+      "id": 535,
+      "title": "How to review an AI architecture",
+      "levelId": 32
+    },
+    {
+      "id": 536,
+      "title": "How to explain architecture decisions",
+      "levelId": 32
+    },
+    {
+      "id": 537,
+      "title": "AI system design interview questions",
+      "levelId": 32
+    },
+    {
+      "id": 538,
+      "title": "FDE technical interview questions",
+      "levelId": 32
+    },
+    {
+      "id": 539,
+      "title": "Solutions architect interview questions",
+      "levelId": 32
+    },
+    {
+      "id": 540,
+      "title": "AI architect interview questions",
+      "levelId": 32
+    },
+    {
+      "id": 541,
+      "title": "Explain the complete modern AI stack from hardware to application",
+      "levelId": 33
+    },
+    {
+      "id": 542,
+      "title": "Explain how ChatGPT works at a high level",
+      "levelId": 33
+    },
+    {
+      "id": 543,
+      "title": "Explain how an LLM works from input to output",
+      "levelId": 33
+    },
+    {
+      "id": 544,
+      "title": "Explain how RAG works end-to-end",
+      "levelId": 33
+    },
+    {
+      "id": 545,
+      "title": "Explain how an AI agent works end-to-end",
+      "levelId": 33
+    },
+    {
+      "id": 546,
+      "title": "Explain how an enterprise AI system works",
+      "levelId": 33
+    },
+    {
+      "id": 547,
+      "title": "Explain LLM vs ML vs deep learning vs generative AI",
+      "levelId": 33
+    },
+    {
+      "id": 548,
+      "title": "Explain RAG vs fine-tuning vs prompting",
+      "levelId": 33
+    },
+    {
+      "id": 549,
+      "title": "Explain vector databases vs traditional databases",
+      "levelId": 33
+    },
+    {
+      "id": 550,
+      "title": "Explain AI agents vs traditional workflows",
+      "levelId": 33
+    },
+    {
+      "id": 551,
+      "title": "Design an enterprise RAG system from scratch",
+      "levelId": 33
+    },
+    {
+      "id": 552,
+      "title": "Design an enterprise AI agent from scratch",
+      "levelId": 33
+    },
+    {
+      "id": 553,
+      "title": "Design a production AI SaaS from scratch",
+      "levelId": 33
+    },
+    {
+      "id": 554,
+      "title": "Design a multi-tenant AI platform from scratch",
+      "levelId": 33
+    },
+    {
+      "id": 555,
+      "title": "Design an AI system with security, observability and evaluation",
+      "levelId": 33
+    },
+    {
+      "id": 556,
+      "title": "Design an AI system with 1 million users",
+      "levelId": 33
+    },
+    {
+      "id": 557,
+      "title": "Design an AI system with strict cost requirements",
+      "levelId": 33
+    },
+    {
+      "id": 558,
+      "title": "Design an AI system with strict data privacy requirements",
+      "levelId": 33
+    },
+    {
+      "id": 559,
+      "title": "Review a broken AI architecture and improve it",
+      "levelId": 33
+    },
+    {
+      "id": 560,
+      "title": "Complete AI/FDE architecture case study",
+      "levelId": 33
+    }
+  ]
+}

@@ -1,63 +1,73 @@
 # FDE Journey
 
-Daily learning companion for the AI → FDE → Architect roadmap.
+Daily AI → FDE → Architect learning companion.
 
-## Run the app
+**Live app:** [https://fde-journey.vercel.app](https://fde-journey.vercel.app)  
+**Dashboard:** [Vercel project](https://vercel.com/abdullah-qaisars-projects/fde-journey)  
+**Repo:** [abdulaqaisar/fde-journey](https://github.com/abdulaqaisar/fde-journey)
+
+## Local development
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Daily accountability nudges
+Local progress saves to `data/progress.json` through the Vite middleware.
 
-Every morning the project can email/WhatsApp you:
+## Production (Vercel)
 
-- today's topic
-- a roast if you skipped
-- an FDE insight
+On Vercel:
 
-### 1) Configure secrets
+- UI is served from the Vite build
+- `GET/PUT /api/progress` syncs progress into GitHub `data/progress.json`
+- `GET /api/nudge` sends the daily accountability message
+- Cron runs daily at **09:00 Asia/Karachi** (`0 4 * * *` UTC)
 
-Copy `.env.example` to `.env` and fill:
+### Environment variables (already set on Vercel)
 
-- `OPENAI_API_KEY` (add billing credits at OpenAI)
-- `CALLMEBOT_API_KEY` for WhatsApp
-- optional Gmail SMTP vars for reliable email
+- `GITHUB_PROGRESS_TOKEN`
+- `OPENAI_API_KEY`
+- `NUDGE_EMAIL`
+- `WHATSAPP_PHONE`
+- `GITHUB_OWNER` / `GITHUB_REPO` / `GITHUB_BRANCH`
 
-WhatsApp (CallMeBot) one-time setup:
+### Make email reliable from Vercel
+
+FormSubmit is often blocked on Vercel IPs. Add Gmail SMTP:
+
+1. Create a [Google App Password](https://myaccount.google.com/apppasswords)
+2. Set these Vercel envs:
+
+```bash
+npx vercel env add SMTP_HOST production
+# smtp.gmail.com
+npx vercel env add SMTP_PORT production
+# 465
+npx vercel env add SMTP_USER production
+# abdullahqaisar31@gmail.com
+npx vercel env add SMTP_PASS production
+# your-app-password
+npx vercel env add SMTP_FROM production
+# FDE Journey <abdullahqaisar31@gmail.com>
+```
+
+### WhatsApp
 
 1. Add `+34 644 59 71 67` in WhatsApp contacts
 2. Message: `I allow callmebot to send me messages`
-3. Put the received apikey in `.env` as `CALLMEBOT_API_KEY`
-
-Email: first FormSubmit send asks you to confirm `abdullahqaisar31@gmail.com`. After that, daily mail works. SMTP is better long-term.
-
-### 2) Send a nudge now
+3. Set `CALLMEBOT_API_KEY` in `.env` and Vercel
 
 ```bash
+npx vercel env add CALLMEBOT_API_KEY production
+```
+
+### Manual nudge
+
+```bash
+curl https://fde-journey.vercel.app/api/nudge
+# or locally
 npm run nudge
 ```
 
-### 3) Keep it running locally
-
-```bash
-npm run nudge:schedule
-```
-
-Default: every day at **09:00 Asia/Karachi**.
-
-### 4) GitHub Action (laptop off still works)
-
-Workflow: `.github/workflows/daily-nudge.yml` at 09:00 PKT.
-
-Set repo secret:
-
-```bash
-gh secret set OPENAI_API_KEY --repo abdulaqaisar/fde-journey
-gh secret set CALLMEBOT_API_KEY --repo abdulaqaisar/fde-journey
-```
-
-## Progress storage
-
-Notes, streak, and completed topics save to `data/progress.json` while `npm run dev` is running.
+GitHub Action `.github/workflows/daily-nudge.yml` is a second daily backup path.

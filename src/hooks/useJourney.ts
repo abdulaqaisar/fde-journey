@@ -82,7 +82,7 @@ export function useJourney() {
       persistState(state)
         .then(() => setSaveError(null))
         .catch(() => setSaveError('Could not save progress to data/progress.json.'))
-    }, 250)
+    }, 1200)
 
     return () => {
       if (saveTimer.current) {
