@@ -1,0 +1,49 @@
+@import '@fontsource-variable/syne';
+@import '@fontsource-variable/dm-sans';
+
+:root {
+  --display: 'Syne Variable', Syne, sans-serif;
+  --body: 'DM Sans Variable', 'DM Sans', sans-serif;
+  --ink: #e8f1f4;
+  --muted: #93a7b5;
+  --line: rgba(148, 163, 184, 0.18);
+  font-family: var(--body);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--ink);
+  background: #07131f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+button,
+textarea {
+  font: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(94, 234, 212, 0.28);
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
