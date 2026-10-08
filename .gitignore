@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Secrets & local nudge state
+.env
+.env.*
+!.env.example
+data/last-nudge.json

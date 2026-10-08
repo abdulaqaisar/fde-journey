@@ -23,6 +23,7 @@ export default function App() {
     completeAndAdvance,
     toggleComplete,
     saveNote,
+    checkInToday,
     moveBy,
   } = useJourney()
 
@@ -86,6 +87,12 @@ export default function App() {
             <div className="progress-fill" style={{ width: `${progress.percent}%` }} />
           </div>
           <span className="progress-pct">{progress.percent}%</span>
+        </div>
+
+        <div className="streak-chip" title="Learning streak (Pakistan time)">
+          <span className="streak-label">Streak</span>
+          <strong>{progress.streak}</strong>
+          <span className="muted">best {progress.longestStreak}</span>
         </div>
 
         <button
@@ -161,6 +168,9 @@ export default function App() {
               </button>
               <button type="button" className="btn ghost" onClick={() => toggleComplete(topic.id)}>
                 {isDone ? 'Undo complete' : 'Mark complete'}
+              </button>
+              <button type="button" className="btn ghost" onClick={checkInToday}>
+                Check in today
               </button>
             </div>
           </section>

@@ -9,6 +9,9 @@ const defaultProgress = {
   currentId: 1,
   completed: [] as number[],
   notes: {} as Record<string, { text: string; updatedAt: string }>,
+  lastActivityAt: null as string | null,
+  streak: 0,
+  longestStreak: 0,
 }
 
 /**

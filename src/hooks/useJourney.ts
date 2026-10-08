@@ -1,33 +1,13 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { topics } from '../data/topics'
+import {
+  defaultJourneyState,
+  normalizeJourneyState,
+  touchActivity,
+  type JourneyState,
+} from '../lib/activity'
 
-export interface TopicNote {
-  text: string
-  updatedAt: string
-}
-
-export interface JourneyState {
-  currentId: number
-  completed: number[]
-  notes: Record<string, TopicNote>
-}
-
-const defaultState: JourneyState = {
-  currentId: 1,
-  completed: [],
-  notes: {},
-}
-
-/**
- * Normalizes API/file payloads into a safe journey state object.
- */
-function normalizeState(parsed: Partial<JourneyState> | null | undefined): JourneyState {
-  return {
-    currentId: parsed?.currentId ?? 1,
-    completed: Array.isArray(parsed?.completed) ? parsed.completed : [],
-    notes: parsed?.notes ?? {},
-  }
-}
+export type { JourneyState, TopicNote } from '../lib/activity'
 
 /**
  * Loads journey state from the repo-backed API.
@@ -37,7 +17,7 @@ async function fetchState(): Promise<JourneyState> {
   if (!response.ok) {
     throw new Error('Failed to load progress')
   }
-  return normalizeState(await response.json())
+  return normalizeJourneyState(await response.json())
 }
 
 /**
@@ -58,7 +38,7 @@ async function persistState(state: JourneyState): Promise<void> {
  * Persists journey progress, notes, and current topic in the project repo.
  */
 export function useJourney() {
-  const [state, setState] = useState<JourneyState>(defaultState)
+  const [state, setState] = useState<JourneyState>(defaultJourneyState)
   const [ready, setReady] = useState(false)
   const [saveError, setSaveError] = useState<string | null>(null)
   const skipNextPersist = useRef(true)
@@ -77,7 +57,7 @@ export function useJourney() {
       .catch(() => {
         if (cancelled) return
         skipNextPersist.current = true
-        setState(defaultState)
+        setState(defaultJourneyState)
         setReady(true)
         setSaveError('Could not load progress from the repo file.')
       })
@@ -119,8 +99,11 @@ export function useJourney() {
       done,
       total: topics.length,
       percent: Math.round((done / topics.length) * 100),
+      streak: state.streak,
+      longestStreak: state.longestStreak,
+      lastActivityAt: state.lastActivityAt,
     }
-  }, [state.completed.length])
+  }, [state.completed.length, state.streak, state.longestStreak, state.lastActivityAt])
 
   /**
    * Selects a topic as the active learning focus.
@@ -142,11 +125,11 @@ export function useJourney() {
         topics.find((topic) => topic.id > prev.currentId && !completed.includes(topic.id)) ??
         topics.find((topic) => !completed.includes(topic.id))
 
-      return {
+      return touchActivity({
         ...prev,
         completed,
         currentId: next?.id ?? prev.currentId,
-      }
+      })
     })
   }, [])
 
@@ -156,29 +139,39 @@ export function useJourney() {
   const toggleComplete = useCallback((id: number) => {
     setState((prev) => {
       const exists = prev.completed.includes(id)
-      return {
+      const next = {
         ...prev,
         completed: exists
           ? prev.completed.filter((item) => item !== id)
           : [...prev.completed, id].sort((a, b) => a - b),
       }
+      return exists ? next : touchActivity(next)
     })
   }, [])
 
   /**
-   * Saves a personal note for a topic.
+   * Saves a personal note for a topic and counts as daily activity.
    */
   const saveNote = useCallback((id: number, text: string) => {
-    setState((prev) => ({
-      ...prev,
-      notes: {
-        ...prev.notes,
-        [String(id)]: {
-          text,
-          updatedAt: new Date().toISOString(),
+    setState((prev) =>
+      touchActivity({
+        ...prev,
+        notes: {
+          ...prev.notes,
+          [String(id)]: {
+            text,
+            updatedAt: new Date().toISOString(),
+          },
         },
-      },
-    }))
+      }),
+    )
+  }, [])
+
+  /**
+   * Explicit check-in for the day without completing a topic.
+   */
+  const checkInToday = useCallback(() => {
+    setState((prev) => touchActivity(prev))
   }, [])
 
   /**
@@ -201,6 +194,7 @@ export function useJourney() {
     completeAndAdvance,
     toggleComplete,
     saveNote,
+    checkInToday,
     moveBy,
   }
 }

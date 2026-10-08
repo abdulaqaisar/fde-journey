@@ -105,6 +105,30 @@
   color: var(--muted);
 }
 
+.streak-chip {
+  display: flex;
+  align-items: baseline;
+  gap: 0.45rem;
+  padding: 0.55rem 0.8rem;
+  border: 1px solid var(--line);
+  background: rgba(7, 19, 31, 0.55);
+  backdrop-filter: blur(10px);
+  font-size: 0.85rem;
+}
+
+.streak-chip strong {
+  font-family: var(--display);
+  font-size: 1.15rem;
+  color: #fbbf24;
+}
+
+.streak-label {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.68rem;
+  color: var(--muted);
+}
+
 .nav-toggle {
   display: none;
 }

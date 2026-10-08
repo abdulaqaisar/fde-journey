@@ -1,5 +1,8 @@
 {
   "currentId": 1,
   "completed": [],
-  "notes": {}
+  "notes": {},
+  "lastActivityAt": null,
+  "streak": 0,
+  "longestStreak": 0
 }
