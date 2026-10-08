@@ -217,7 +217,9 @@ export default function App() {
                 Last saved {new Date(state.notes[String(topic.id)].updatedAt).toLocaleString()}
               </p>
             ) : (
-              <p className="note-meta">Notes are saved in data/progress.json in this project.</p>
+              <p className="note-meta">
+                Notes sync to data/progress.json (local in dev, GitHub via Vercel in production).
+              </p>
             )}
             {saveError ? <p className="note-meta save-error">{saveError}</p> : null}
           </section>
